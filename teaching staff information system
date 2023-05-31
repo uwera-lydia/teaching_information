@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    fieldset{
+        width: fit-content;
+        padding: 20px;
+        border:  2px solid rgb(184, 85, 85);
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    button{
+        border-radius: 50%;
+        font-size: larger;
+        width: 50PX;
+        height: 50PX;
+        margin: 5px;
+        background-color: rgb(152, 58, 58);
+        box-shadow: 5px 5px 5px rgb(174, 74, 74);
+        border: none;
+        
+    }
+    INPUT{
+        width: 245PX;
+        height: 30PX; 
+        margin-bottom: 20px;
+        outline: none;
+        font-size: larger;
+    }
+    .equal{
+        width: 110PX;
+        height: 50PX;   
+        background-color: orangered;
+    }
+    ::placeholder{
+        text-align: end;
+    }
+</style>
+<body>
+    <fieldset>
+    <input type="text" placeholder="0"><br>
+    <button>C</button>
+    <button>DEL</button>
+    <button>%</button>
+    <button>+</button><br>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>/</button><br>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>-</button><br>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>*</button><br>
+    <button>0</button>
+    <button>.</button>
+    <button class="equal">=</button>
+     
+    
+</fieldset>
+</body>
+</html>
